@@ -94,3 +94,43 @@
         height: 45vh;
     }
 }
+
+
+@media (min-width:2000px) {
+    #secFive{
+        background-position-y: -10vh;
+    }
+    .top-secFive h1 {
+        font-size: 4vh;
+        margin-bottom: 2vh;
+    }
+    .top-secFive p {
+        font-size: 2.5vh;
+
+    }
+}
+
+@media (min-width:2200px) {
+    #secFive{
+        background-position-y: -15vh;
+    }
+}
+
+@media (min-width:2314px) {
+    #secFive{
+        background-position-y: -20vh;
+    }
+}
+
+@media (min-width:2440px) {
+    #secFive{
+        background-position-y: -25vh;
+    }
+}
+
+@media (min-width:2560px) {
+    #secFive{
+        background-position-y: -30vh;
+    }
+}
+
