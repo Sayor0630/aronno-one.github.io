@@ -45,6 +45,35 @@
     background: #333;
 }
 
+@media (max-width:1263px) {
+    #secFour{
+        height: 70vh;
+    }
+    #secFour .container {
+        padding: 15vh 0;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .left-secFour {
+        margin-left: 5vw;
+
+    }
+    .left-secFour h1 {
+        font-size: 40px;
+    }
+    .left-secFour p {
+        width: 95%;
+        font-size: 20px;
+        margin: 40px 0 50px 0;
+    }
+    .left-secFour a {
+        font-weight: 800;
+        padding: 25px 11.5vw;
+        font-size: 18px;
+        transition: 0.6s;
+    }
+}
+
 @media (max-width:768px) {
     #secFour{
         height: 30pc;

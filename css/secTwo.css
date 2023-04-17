@@ -59,9 +59,23 @@
 }
 
 @media (max-width:935px) {
+    #secTwo{
+        height: 90vh;
+    }
+    #secTwo .container .top-secTwo {
+        margin: 9vh 0 0 0;
+        height: 32vh;
+    }
+    #secTwo .container .top-secTwo h1 {
+        font-size: 55px;
+    }
     #secTwo .container .bottom-secTwo .bottom-container h4 {
         font-size: 35px;
     }
+    .bottom-container img {
+        width: 200px;
+    }
+    
 }
 
 @media (max-width:768px) {

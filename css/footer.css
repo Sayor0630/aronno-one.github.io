@@ -3,6 +3,7 @@ footer{
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     padding: 45px 0;
+    height: 60vh;
 }
 
 footer .container {
@@ -11,6 +12,7 @@ footer .container {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+    margin-top: 12vh;
 }
 
 .icons {

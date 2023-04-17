@@ -45,6 +45,35 @@
     background: #333;
 }
 
+@media (max-width:1263px) {
+    #secThree{
+        height: 70vh;
+    }
+    #secThree .container {
+        padding: 15vh 0;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .right-secThree {
+        margin-left: 5vw;
+
+    }
+    .right-secThree h1 {
+        font-size: 40px;
+    }
+    .right-secThree p {
+        width: 95%;
+        font-size: 20px;
+        margin: 40px 0 50px 0;
+    }
+    .right-secThree a {
+        font-weight: 800;
+        padding: 25px 11.5vw;
+        font-size: 18px;
+        transition: 0.6s;
+    }
+}
+
 @media (max-width:768px) {
     #secThree{
         height: 30pc;
