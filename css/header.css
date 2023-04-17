@@ -134,7 +134,7 @@ header .right nav ul li {
     color: #716c53;
     cursor: pointer;
     font-size: 3rem;
-    margin-left: 1rem;
+    margin-left: 0;
     padding: 1rem 1rem;
     border-radius: 6px;
 }
@@ -222,6 +222,28 @@ header .right nav ul li {
         flex-wrap: nowrap;
         align-items: center;
         justify-content: space-around;
+    }
+}
+
+@media (max-width:600px) {
+    #search-form.active{
+        zoom: 70%;
+    }
+}
+
+@media (max-width:500px) {
+    #search-form label {
+        margin-left: 1px;
+    }
+}
+
+@media (max-width:400px) {
+    #search-form label {
+        font-size: 2rem;
+        margin-left: 0;
+    }
+    #search-form #search-box {
+        margin: 0 0 0 -1rem;
     }
 }
 
