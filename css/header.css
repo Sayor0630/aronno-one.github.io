@@ -224,3 +224,10 @@ header .right nav ul li {
         justify-content: space-around;
     }
 }
+
+@media (max-width:483px) {
+    header{
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+}
