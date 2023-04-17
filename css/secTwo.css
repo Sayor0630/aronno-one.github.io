@@ -128,7 +128,7 @@
     #secTwo .container .top-secTwo p {
         width: 640px;
         margin: 20px 0 20px 0;
-        font-size: 19px;
+        font-size: 100%;
         letter-spacing: 2px;
     }
     #secTwo .container .bottom-secTwo {

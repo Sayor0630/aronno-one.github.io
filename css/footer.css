@@ -21,7 +21,7 @@ footer .container {
 
 .left-footer {
     width: 33%;
-    font-size: 22px;
+    font-size: 2.5vh;
     margin: 0 50px;
 }
 
@@ -44,14 +44,14 @@ footer .container {
     color: #fff;
     text-decoration: none;
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 2vh;
     text-transform: capitalize;
 }
 
 .right-footer b {
     margin: 40px 0;
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 2vh;
 }
 .icons a {
     background: #fff;
@@ -70,7 +70,7 @@ footer .container {
 @media (max-width:768px) {
     .left-footer {
         width: 25%;
-        font-size: 15px;
+        font-size: 2vw;
         margin: 0 20px;
     }
     .left-footer img {
@@ -85,10 +85,10 @@ footer .container {
     }
     .right-footer a {
         margin: 5px 0;
-        font-size: 15px;
+        font-size: 2vw;
     }
     .right-footer b {
-        margin: 0px 0 20px 0;
+        margin: 0px 0 1vh 0;
         text-transform: capitalize;
         font-size: 20px;
     }
@@ -103,6 +103,41 @@ footer .container {
     .icons a i {
         margin: 5px 5px;
     }
-    
-    
+}
+
+@media (max-width:600px) {
+    footer{
+        padding: 45px 0;
+        height: fit-content;
+    }
+    footer .container {
+        flex-direction: column;
+    }
+    .left-footer {
+        width: 80%;
+        font-size: 22px;
+        margin: 0 0;
+    }
+    .left-footer p {
+        margin-left: 1.8vw;
+    }
+    .left-footer img {
+        margin:10px;
+        width: 50vw;
+    }
+    /* .left-footer .icons {
+        margin-bottom: 3vh;
+    } */
+    .right-footer {
+        flex-direction: column;
+        width: 80%;
+    }
+    .right-footer b {
+        margin: 4vh 0 1vh 0;
+        font-size: 5vw;
+    }
+    .right-footer a {
+        margin: 5px 0;
+        font-size: 3vw;
+    }
 }

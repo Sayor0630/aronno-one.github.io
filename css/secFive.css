@@ -77,11 +77,11 @@
         margin: 50px auto 3.5vh;
     }
     .top-secFive h1 {
-        font-size: 30px;
+        font-size: 150%;
         margin-bottom: 2vh;
     }
     .top-secFive p {
-        font-size: 15px;
+        font-size: 100%;
         max-width: 70%;
     }
     .bottom-secFive {
