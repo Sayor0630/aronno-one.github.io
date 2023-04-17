@@ -45,6 +45,28 @@
     background: #333;
 }
 
+@media (max-width:733px) {
+    #secOne .container {
+        padding: 2vh 0;
+    }
+    
+    #secOne .container .right-secOne h2 {
+        font-size: 250% !important;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 9px;
+    }
+    #secOne .container .right-secOne p {
+        font-size: 100% !important;
+        letter-spacing: 3px;
+        margin: 20px 0 20px 0px;
+        width: 90%
+    }
+    #secOne .container .right-secOne a {
+        padding: 15px 8vw !important;
+        font-size: 15px !important;
+    }
+}
 
 @media (max-width:768px) {
     /* #secOne .container {
@@ -81,7 +103,7 @@
         margin: 20px 20px 15px 0px;
     }
     #secOne .container .right-secOne a {
-        padding: 20px 70px;
+        padding: 20px 8vw;
         font-size: 20px;
     }
     .left-secOne img{

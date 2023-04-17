@@ -75,12 +75,29 @@
         width: 200px;
     }
     .single-secSix p {
-
         width: 200px;
         font-size: 15px;
     }
     .single-secSix a {
         padding: 15px 6.5vw;
         font-size: 12px;
+    }
+}
+
+@media (max-width:683px) {
+    .single-secSix p {
+        margin-left: -2px;
+    }
+}
+
+@media (max-width:627px) {
+    .single-secSix img {
+        margin: 15px 0;
+        width: 150px;
+    }
+    .single-secSix p {
+        width: 20vw;
+        font-size: 15px;
+        margin-left: 5vw;
     }
 }

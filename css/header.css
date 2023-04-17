@@ -95,7 +95,10 @@ header .right nav ul li {
     top: -110%; left: 0;
     height: 100%; width: 100%;
     z-index: 1004;
-    background: rgb(238, 226, 181);
+    background-image: url('./../img/design.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(238, 226, 181);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,11 +196,14 @@ header .right nav ul li {
     .navbar-primary-menu {
         display: block;
         position: absolute;
-        top: 14%; left:0; right:0;
-        background: #eee2b5;
+        top: 120px; left:0; right:0;
+        background-color: #eee2b5;
         border-top: .1rem solid rgba(0, 0, 0, 0.2);
+        border-bottom: .1rem solid rgba(0, 0, 0, 0.2);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-        padding: 1rem;
+        background-image: url('./../img/design.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .navbar-primary-menu a {
         display: block;
