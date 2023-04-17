@@ -230,4 +230,8 @@ header .right nav ul li {
         padding: 10px 10px;
         font-size: 20px;
     }
+    .navbar-primary-menu {
+        top: 100px;
+    }
+    
 }
