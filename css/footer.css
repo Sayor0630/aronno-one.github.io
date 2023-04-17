@@ -111,6 +111,7 @@ footer .container {
         height: fit-content;
     }
     footer .container {
+        margin-top: 4vh;
         flex-direction: column;
     }
     .left-footer {
@@ -134,10 +135,10 @@ footer .container {
     }
     .right-footer b {
         margin: 4vh 0 1vh 0;
-        font-size: 5vw;
+        font-size: 3vh;
     }
     .right-footer a {
         margin: 5px 0;
-        font-size: 3vw;
+        font-size: 2vh;
     }
 }

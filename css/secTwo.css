@@ -122,13 +122,13 @@
         height: 18vh;
     }
     #secTwo .container .top-secTwo h1 {
-        font-size: 180%;
+        font-size: 6vw;
     }
     
     #secTwo .container .top-secTwo p {
         width: 640px;
         margin: 20px 0 20px 0;
-        font-size: 100%;
+        font-size: 3vw;
         letter-spacing: 2px;
     }
     #secTwo .container .bottom-secTwo {
