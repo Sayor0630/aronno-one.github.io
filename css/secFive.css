@@ -68,3 +68,23 @@
         font-size: 20px;
     }
 }
+
+@media (max-width:600px) {
+    #secFive{
+        height: 50vh;
+    }
+    .top-secFive {
+        margin: 50px auto 3.5vh;
+    }
+    .top-secFive h1 {
+        font-size: 30px;
+        margin-bottom: 2vh;
+    }
+    .top-secFive p {
+        font-size: 15px;
+        max-width: 70%;
+    }
+    .bottom-secFive {
+        font-size: 15px;
+    }
+}

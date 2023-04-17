@@ -101,3 +101,35 @@
         margin-left: 5vw;
     }
 }
+
+@media (max-width:600px) {
+    #secSix h1 {
+        font-size: 28px;
+    }
+    #secSix .container {
+        flex-direction: column;
+    }
+    .single-secSix {
+        width: 100vw;
+        height: 68vh;
+    }
+    .single-secSix img {
+        margin: 15px 0;
+        width: 70vw;
+    }
+    .single-secSix p {
+        width: 80vw;
+        font-size: 20px;
+        margin-left: 10vw;
+    }
+    .single-secSix h3 {
+        font-size: 30px;
+    }
+    .single-secSix b{
+        font-size: 25px;
+    }
+    .single-secSix a {
+        padding: 15px 25vw;
+        font-size: 15px;
+    }
+}
