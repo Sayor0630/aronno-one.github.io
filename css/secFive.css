@@ -1,0 +1,70 @@
+#secFive{
+    background: url('./../img/secFive.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    color: #716c53;
+    height: 58pc;
+}
+
+#secFive .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.top-secFive {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 30pc;
+    margin: 185px auto 114px;
+}
+
+.top-secFive h1 {
+    font-size: 44px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.top-secFive p {
+    text-align: center;
+    font-size: 17px;
+}
+.bottom-secFive {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.brdr-secFive {
+    font-weight: 800;
+}
+
+@media (max-width:768px) {
+    #secFive{
+        height: 35pc;
+    }
+    .top-secFive {
+        width: 30pc;
+        margin: 50px auto 85px;
+    }
+    .top-secFive h1 {
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+    
+    .top-secFive p {
+        font-size: 17px;
+    }
+    .bottom-secFive {
+        font-size: 20px;
+    }
+}

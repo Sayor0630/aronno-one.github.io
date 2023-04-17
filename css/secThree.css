@@ -1,0 +1,79 @@
+#secThree{
+    background: url('./../img/secThree.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65pc;
+}
+
+#secThree .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #716c53;
+    padding: 95px 0;
+}
+
+.left-secThree img {
+    width: 30vw;
+}
+
+.right-secThree h1 {
+    text-transform: uppercase;
+    font-size: 75px;
+}
+
+.right-secThree p {
+    width: 50vw;
+    font-size: 30px;
+    margin: 10% 0;
+}
+
+.right-secThree a {
+    background: #716c53;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 25px 130px;
+    border-radius: 5px;
+    font-size: 25px;
+    transition: 0.6s;
+}
+.right-secThree a:hover {
+    background: #333;
+}
+
+@media (max-width:768px) {
+    #secThree{
+        height: 30pc;
+    }
+    #secThree .container {
+        justify-content: flex-start;
+        padding: 50px 0;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .left-secThree img {
+        width: 48vw;
+    }
+    .right-secThree {
+        margin-left: 20px;
+
+    }
+    .right-secThree h1 {
+        font-size: 40px;
+    }
+    .right-secThree p {
+        width: 95%;
+        font-size: 20px;
+        margin: 40px 0 50px 0;
+    }
+    .right-secThree a {
+        font-weight: 800;
+        padding: 25px 11.5vw;
+        font-size: 18px;
+        transition: 0.6s;
+    }
+}
